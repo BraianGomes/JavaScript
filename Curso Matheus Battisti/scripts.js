@@ -21,4 +21,11 @@ var meuNull = null;
 var meuUndefined = undefined;
 
 
+console.log(typeof meuObjeto);
+console.log(typeof meuArray);
+console.log(typeof meuNull);
+console.log(typeof meuUndefined);
+
+let x = 10;
+const y = 5;
 
