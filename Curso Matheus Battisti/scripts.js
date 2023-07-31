@@ -1,1 +1,17 @@
-var minhaVariavel = "Ola, Mundo"
+
+
+
+var minhaVariavel = "Ola, Mundo!";
+
+console.log(minhaVariavel);
+
+var meuNumero = 10;
+
+console.log(meuNumero);
+
+console.log(meuNumero + 5);
+
+console.log("10" + 5);
+
+console.log(typeof meuNumero);
+
