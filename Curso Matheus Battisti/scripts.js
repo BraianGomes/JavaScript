@@ -15,3 +15,9 @@ console.log("10" + 5);
 
 console.log(typeof meuNumero);
 
+var meuObjeto = {};
+var meuArray = [];
+var meuNull = null;
+
+
+
