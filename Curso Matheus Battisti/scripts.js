@@ -18,6 +18,7 @@ console.log(typeof meuNumero);
 var meuObjeto = {};
 var meuArray = [];
 var meuNull = null;
+var meuUndefined = undefined;
 
 
 
