@@ -29,3 +29,22 @@ console.log(typeof meuUndefined);
 let x = 10;
 const y = 5;
 
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+
+
+console.log(x == y);
+console.log(x != y);
+
+console.log("5" == 5);
+console.log("5" === 5);
+console.log("5" !== 5);
+
+//Operadores logicos
+console.log(10 > 5 && 20 > 5); //AND
+console.log(10 > 5 || 20 > 5); //OR
+
+
