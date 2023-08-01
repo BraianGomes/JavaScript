@@ -93,14 +93,82 @@ switch (fruta){
 //Estruturas de repeticao 1,2,3,4 .....
 //contador, condicao de limite, incremento
 
-for(let i = 0; i < 5; i = i++) {
+for(let i = 0; i < 5; i++) {
+    //concatenacao
     console.log("O valor de i eh:" +i);
-
+}
+ // while
+let k = 0;
+while(k < 5){
+    console.log("O valor de k:" +k)
+    k++;
 }
 
+// do while
 
+let j = 0;
 
+do{
 
+    console.log("O valor de j eh:" +j);
+    j++;
 
+} while (j <5);
 
+//funcao
+//function name(arg1, arg2){ corpo }
+
+function cumprimentar(nome) {
+    console.log("Ola!" + nome );
+}
+
+// invocacao = nome()
+cumprimentar("Braian");
+
+// escopo de variaveis
+
+let cor = "Azul";
+
+function mostrarCor(){
+    let cor = "Verde";
+
+    console.log(cor);   
+}
+
+console.log(cor);
+
+mostrarCor();
+
+//hoisting = icamento
+
+testeHoistintg();
+
+function testeHoistintg(){
+    console.log("Deu certo!");
+}
+
+//arrow function
+
+const testeArrow = () => console.log("Isso tbm eh uma funcao");
+
+testeArrow();
+
+//truth e falsy
+
+const minhaVariavel1 = "" //falsy
+const minhaVariavel2 = "algum texto" //truth
+
+if(minhaVariavel1) {
+    console.log("Minha variavel eh verdadeira");
+} else{
+    console.log("Eh falso");
+}
+
+if(minhaVariavel2){
+    console.log("Eh verdadeiro 2");
+} else{
+    console.log("Eh falso 2");
+}
+
+//
 
