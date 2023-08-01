@@ -75,6 +75,23 @@ if(true){
     console.log("Isso executa");
 }
 
+//Switch
+
+const fruta = "Mamao";
+
+switch (fruta){
+    case "Maca":
+        console.log("Maca nao eh Banana!");
+        break;
+    case "Banana":
+        console.log("Banana eh a fruta!");
+        break;
+    default:
+        console.log("Fruta nao encontrada");
+}
+
+//Estruturas de repeticao 1,2,3,4 .....
+
 
 
 
