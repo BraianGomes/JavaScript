@@ -91,6 +91,12 @@ switch (fruta){
 }
 
 //Estruturas de repeticao 1,2,3,4 .....
+//contador, condicao de limite, incremento
+
+for(let i = 0; i < 5; i = i++) {
+    console.log("O valor de i eh:" +i);
+
+}
 
 
 
