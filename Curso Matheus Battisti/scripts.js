@@ -47,4 +47,37 @@ console.log("5" !== 5);
 console.log(10 > 5 && 20 > 5); //AND
 console.log(10 > 5 || 20 > 5); //OR
 
+//Conversao de Tipos
+
+const meuNumero2 = "123";
+const meuNumeroConvertido = Number(meuNumero2);
+
+console.log(meuNumeroConvertido);
+console.log(typeof meuNumeroConvertido);
+
+//Estrutura de condicao - if, else, else if
+
+const idade = 16;
+
+if(idade < 13){
+    console.log("Crianca");
+}
+
+    else if(idade<20){
+        console.log("Adolescente");
+}
+
+ else {
+    console.log("Adulto");
+}
+
+if(true){
+    console.log("Isso executa");
+}
+
+
+
+
+
+
 
