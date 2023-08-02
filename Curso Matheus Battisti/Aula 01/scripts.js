@@ -170,5 +170,8 @@ if(minhaVariavel2){
     console.log("Eh falso 2");
 }
 
-//
+//Math
+
+console.log(Math.pow(3,3));
+
 
