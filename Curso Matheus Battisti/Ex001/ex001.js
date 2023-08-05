@@ -3,7 +3,7 @@
 
 console.log("Ola, Mundo!");
 
-const valorString = "1234";
+const valorString = "123456";
 const valorNumber = Number(valorString);
 
 console.log(typeof valorNumber);
@@ -15,7 +15,7 @@ const numeroDePalavras = minhaString.split(" ").length;
 console.log(`O Numero de Caracteres eh: ${numeroDeCaracteres}`);
 console.log(`O numero de Palavras eh: ${numeroDePalavras}`);
 
-const nomes = ["Braian", "Erica", "Cristal", "Yuri", "Deus"];
+const nomes = ["Braian", "Erica", "Cristal", "Yuri", "Loky"];
 
 for(let i = 0; i < nomes.length; i++) {
     console.log(nomes[i]);
