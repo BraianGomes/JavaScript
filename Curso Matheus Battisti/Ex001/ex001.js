@@ -43,6 +43,6 @@ console.log(`${hora12}:${minuto} ${periodo}`);
 
 
 converterHorario("15:16");
-converterHorario("9:46");
+converterHorario("8:49");
 converterHorario("00:23")
 converterHorario("12:33")
