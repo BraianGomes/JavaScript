@@ -1,1 +1,2 @@
-console.log('o console funcionou corretamente');
+console.log("o console funcionou corretamente");
+
