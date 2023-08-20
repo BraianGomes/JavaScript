@@ -1,11 +1,11 @@
-let resultado = parimpar(19933)
+let resultado = parimpar(99345)
 
 function parimpar(numero){
 
     if (numero%2 ==0){
-        return 'Par'
+        return 'Par!'
     } else {
-        return 'Impar'
+        return 'Impar!'
     }
 }
 
