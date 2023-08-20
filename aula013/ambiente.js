@@ -19,6 +19,6 @@ var contador = 1;
 do {
     console.log(`Passo ${contador}`);
     contador ++
-} while (contador <=7);
+} while (contador <=8);
 
 
