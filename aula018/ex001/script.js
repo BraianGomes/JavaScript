@@ -3,8 +3,9 @@ function loading(){
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    
-    msg.innerHTML = `Agora sao ${hora} horas`
+    var minuto = data.getMinutes()
+
+    msg.innerHTML = `Agora sao ${hora} horas e ${minuto} minutos`
 
 
     if (hora >= 0 && hora < 12){
