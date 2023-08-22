@@ -13,10 +13,9 @@ function check(){
        var fsex = document.getElementsByName('radsex')
        var idade = year - Number(formYear.value)
        var genre = ''
+       var img = window.document.getElementById('image')
 
        /* Adicionando foto pelo JavaScript*/
-       var img = document.createElement('img')
-       img.setAttribute('id', 'foto')
 
 
 ///////////////////////  Male ////////////////////////
@@ -25,6 +24,7 @@ function check(){
         if (year>= 0 || year <= 10){
             //crianca
             img.src = ('images/malechild.jpg')
+        document.body.style.background = '#b9846f'
 
         } else if ( year > 10 && idade < 18 ){
             //Jovem
