@@ -24,20 +24,24 @@ function check(){
         if (year>= 0 || year <= 10){
             //crianca
             img.src = ('images/malechild.jpg')
-        document.body.style.background = '#b9846f'
+        document.body.style.background = '#472A21'
 
         } else if ( year > 10 && idade < 18 ){
             //Jovem
             img.src = ('images/maleteen.jpg')
+            document.body.style.background = '#4F453B'
 
         } else if ( idade > 18 && idade < 50 ){
             //adulto 
             img.src = ('images/maleadult.jpg')
+            document.body.style.background = '#C7765B'
         }
 
         else {
             //idoso
             img.src = ('images/maleold.jpg')
+            document.body.style.background = '#E05D31'
+
         }
 
 ///////////////////////    Female ///////////////////////
@@ -46,21 +50,25 @@ function check(){
        }
        if (year>= 0 || year <= 10){
         //crianca
-        img.src = ('images/femalechild.jpg')
+        img.src = ('images/malechild.jpg')
+        document.body.style.background = '#FF30EE'
         
 
     } else if ( year > 10 && idade < 18 ){
         //Jovem
         img.src = ('images/femaleteen.jpg')
+        document.body.style.background = '#EA6CDF'
 
     } else if ( idade > 18 && idade < 50 ){
         //adulto 
         img.src = ('images/femaleadult.jpg')
+        document.body.style.background = '#C13CE6'
     }
 
     else {
         //idoso
         img.src = ('images/femaleold.jpg')
+        document.body.style.background = '#66135F'
     }
 
        resultado.innerHTML = `Detectamos ${genre} com ${idade} anos`
