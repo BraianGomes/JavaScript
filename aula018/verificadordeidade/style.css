@@ -23,13 +23,29 @@ section{
     padding: 10px;
     width: 450px;
     height: 300px;
+    text-align: justify;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.517);
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+div#resultado{
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 footer{
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
     font-style: italic;
 }
