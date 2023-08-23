@@ -33,16 +33,7 @@ p{
     margin: 10px;
 }
 
-div#resultado{
-    text-align: center;
-}
 
-img#image{
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    border-radius: 50%;
-}
 
 footer{
     color: white;
