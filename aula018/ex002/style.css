@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: none;
+}
+
+body{
+    background: rgb(176, 121, 225);
+    font-family: sans-serif;
+}
+
+header{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 340px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.517);
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+#imagem{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
