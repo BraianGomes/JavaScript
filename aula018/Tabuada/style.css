@@ -7,7 +7,7 @@
 }
 
 body{
-    background: rgb(176, 121, 225);
+    background: rgb(138, 225, 121);
     font-family: sans-serif;
 }
 
@@ -32,11 +32,6 @@ div{
     padding: 10px;
 }
 
-#imagem{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
 
 footer{
     color: white;
