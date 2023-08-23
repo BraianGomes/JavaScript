@@ -32,6 +32,10 @@ div{
     padding: 10px;
 }
 
+select{
+    overflow: hidden;
+}
+
 
 footer{
     color: white;
