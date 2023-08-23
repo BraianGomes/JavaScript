@@ -7,7 +7,7 @@
 }
 
 body{
-    background: rgb(176, 121, 225);
+    background: rgb(185, 92, 112);
     font-family: sans-serif;
 }
 
@@ -25,6 +25,11 @@ section{
     height: 340px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.517);
+}
+
+select{
+    margin-top: 30px;
+    width: 150px;
 }
 
 div{
