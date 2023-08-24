@@ -1,3 +1,2 @@
-let 
-'Hello World!'.length
-console.log('Hello World!')
+let hello = 'Hello World!'
+console.log('Hello World!'.length)
